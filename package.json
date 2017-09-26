@@ -1,0 +1,13 @@
+{
+  "name": "moe_nodejs",
+  "version": "1.0.0",
+  "description": "MoeApp built on Node.js",
+  "author": "Steve Recio <stevenrecio@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
