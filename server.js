@@ -17,15 +17,15 @@ const RMS_PHOTOS = [
 ];
 
 function choose(choices) {
-  var index = Math.floor(Math.random() * choices.length);
+  let index = Math.floor(Math.random() * choices.length);
   return choices[index];
 }
 
 // App
 const app = express();
 app.get('/', (req, res) => {
-    var moe_src = choose(RMS_PHOTOS);
-    var html = `
+    let moe_src = choose(RMS_PHOTOS);
+    let html = `
 	<html>
 	<body>
 	<img id="moe_img" src="${moe_src}" width="600px;" />
